@@ -1,2 +1,4 @@
-FROM ubuntu:18.04
-ENV LC_ALL C.UTF-8
+FROM node
+COPY . .
+RUN ls
+
